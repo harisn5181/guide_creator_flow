@@ -93,7 +93,7 @@ class GuideCreatorFlow(Flow[GuideCreatorState]):
     #         json.dump(outline_dict, f, indent=2)
 
     #     print(f"Guide outline created with {len(self.state.guide_outline.sections)} sections")
-    #     return self.state.guide_outline
+    #     return self.state.guide_outline 
 
     # @listen(create_guide_outline)
     # def write_and_compile_guide(self, outline):
